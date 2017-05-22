@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=NBody
+comment0.text=\r\n\ Simulates\ an\ object\ with\ known\ mass\ and\ charge\ at\ an\ instance\ in\ time\ in\ two\ dimensions\ \ \r\n\r\n\ @author\ cling99\r\n\ @version\ 0.2\r\n
+comment1.params=mass\ charge\ x\ y
+comment1.target=NBody(double,\ double,\ double,\ double)
+comment1.text=\r\n\ Constructs\ an\ instance\ of\ a\ NBody\ with\ no\ initial\ velocity\r\n
+comment2.params=body
+comment2.target=double[]\ getForce(NBody)
+comment2.text=\r\n\ Calculates\ the\ combined\ force\ on\ this\ NBody\ by\ an\ external\ object\r\n\ (electomagnetic\ &\ gravitational)\r\n\ \r\n\ @param\ \ \ body\ \ \ \ An\ NBody\ object\ with\ known\ mass\ and\ charge\r\n\ @return\ \ force\ between\ two\ objects\ (x,\ y)\r\n
+comment3.params=dT\ fX\ fY
+comment3.target=void\ update(double,\ double,\ double)
+comment3.text=\r\n\ Updates\ the\ position\ and\ velocity\ of\ the\ particle,\ \r\n\ \ \ \ \ \ assuming\ constant\ force\ throughout\ the\ time\ interval\r\n\ @param\ \ \ dT\ \ Time\ interval\ of\ update\ (Eulers)\r\n\ @param\ \ \ fX\ \ Net\ force\ in\ the\ x-direction\r\n\ @param\ \ \ fY\ \ Net\ force\ in\ the\ y-direction\r\n
+comment4.params=
+comment4.target=double\ getMass()
+comment4.text=\r\n\ Updates\ the\ position\ and\ velocity\ of\ the\ particle,\ assuming\ constant\ force\ \r\n
+comment5.params=
+comment5.target=double\ getCharge()
+comment6.params=
+comment6.target=double[]\ getPos()
+comment7.params=
+comment7.target=double[]\ getVel()
+comment8.params=
+comment8.target=double[]\ getAcc()
+numComments=9
