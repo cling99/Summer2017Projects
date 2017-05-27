@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=NBodyViewer
+comment0.text=\r\n\ Creates\ the\ frame\ containing\ the\ component\r\n\r\n\ @author\ cling99\r\n\ @version\ 0.5\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+numComments=2
